@@ -301,29 +301,29 @@ font-size: .8em;
 .hr{
   margin-top: 3.5rem;
   margin-bottom: 5.5rem;
-  border: 2px solid #F1B13D;
+  border: 1px solid #F1B13D;
   margin-right: 80%;
 }
 
 .hr2{
   margin-top: 2.5rem;
-  border: 2px dashed #0B7D44;
+  border: 1px dashed #0B7D44;
   margin-bottom: 2.5rem;
 }
 
 .hr3{
-  border: 2px solid #26C179;
+  border: 1px solid #26C179;
   margin-right: 80%;
   margin-top: 1.5rem;
 }
 
 .hr4{
-  border: 2px solid #26C179;
+  border: 1px solid #26C179;
   margin-top: 1.5rem;
 }
 
 .hr5{
-  border: 2px solid #26C179;
+  border: 1px solid #26C179;
   margin-left: 80%;
   margin-top: 1.5rem;
 }
@@ -353,10 +353,10 @@ font-size: .8em;
 
 .imgTopBar {
   padding: 1rem;
-  background-color: #FFD54F;
+  background-color: #F4F4F4;
   border-radius: 10px;
   p{
-    color: #673AB7;
+    color: #02255F;
     font-weight: bold;
   }
   .imgTopBar_link {
@@ -368,18 +368,18 @@ font-size: .8em;
 }
 
 .imgTopBarButton{
-  background-color:#7817AA; 
+  background-color: #26C179; 
   padding:0.5rem 1rem; 
   margin:0 0.5rem; 
   border-radius: 5px;
   transition: all 800ms ease-out;
   p{
-    color: #FFD54F !important;
+    color: #02255F !important;
   }
 }
 
 .imgTopBarButton:hover{
-  background-color: #3B5FBF;
+  background-color: #b8bfd1;
 }
 
 .bg-color1{
@@ -411,7 +411,7 @@ font-size: .8em;
 }
 
 .bg-color4{
-  border-left: #26C179 solid;
+  border-left: 1px #26C179 solid;
 }
 
 .bg-color5{
@@ -429,12 +429,12 @@ font-size: .8em;
 
 .bg-color7{
   background-color: #F4F4F4;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
 }
 
 .bg-color8{
-  border-right: #26C179 solid;
+  border-right: 1px #26C179 solid;
 }
 
 .bg-color9{
@@ -653,6 +653,18 @@ font-size: .8em;
   line-height: 29px;
 }
 
+.txt-deco19{
+  color: #02255F;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.txt-deco20{
+  color: #02255F;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .table1{
   background-color: #02255F;
   color: #FFFFFF;
@@ -668,4 +680,10 @@ font-size: .8em;
 .table3{
   background-color: #BDFCDE;
   color: #02255F;
+}
+
+.table4{
+  background-color: #26C179;
+  text-align: center;
+  font-size: 25px;
 }
